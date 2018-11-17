@@ -1,11 +1,11 @@
 {
 
   "manifest_version": 2,
-  "name": "My Extension",
+  "name": "SchoolHelper",
   "version": "0.1",
 
-  "description": "A plain text description",
+  "description": "~Help's with all your school needs!~",
 
-  "browser_action": {"default_popup": "popup.html"}
+  "browser_action": {"default_popup": "html/popup.html"}
 
 }
