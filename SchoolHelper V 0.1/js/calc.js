@@ -64,5 +64,11 @@ operate = function(a, b, operation) {
   if (operation === '+') return a + b;
   if (operation === '-') return a - b;
   if (operation === '*') return a * b;
-  if (operation === '/') return a / b;
+  if (operation === '/') {
+    if (b == 0) {
+      return "Undefined";
+    } else {
+      return a / b;
+    }
+  }
 }

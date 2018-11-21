@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Pacifico|Oxygen);
+
+body {
+  background-color: darkkhaki;
+  width: 350px;
+}
+
+p {
+  margin: 0;
+  font-family: Pacifico;
+  position: relative;
+}
+
+header {
+  margin: 0;
+  padding: 10px;
+  background-color: gray;
+  color: lightgray;
+}
+
+#about {
+  margin: 5px;
+  background-color: #ce94d3;
+  border-radius: 10px;
+}
+
+#about-text {
+  margin: 0;
+  padding: 1%;
+  color: black;
+  font-size: 15px;
+}
+
+.header-button {
+  border-radius: 150px;
+  padding: 0;
+  margin: 0;
+  width: 90%;
+}
