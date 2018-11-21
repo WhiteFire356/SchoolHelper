@@ -7,6 +7,12 @@ $(document).ready(function(){
 
   });
 
+  $('#graph').click(function(){
+
+    chrome.tabs.create({ url : 'https://www.desmos.com/calculator'});
+
+  });
+
   $('#back').click(function(){
 
     window.location.href = 'popup.html';
